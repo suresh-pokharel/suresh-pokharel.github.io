@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Suresh Pokharel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <link rel="icon" type="image/png" href="images/logo.png"> -->
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/component.css">
+<script src="js/modernizr.custom.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Lato:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+
+<script src="js/loader_htmls.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131953460-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-131953460-1');
+</script>
+</head>
+
+<body>
+
+<!-- Import header -->
+<div data-include="header"></div>
+
+<!--Portfolio start-->
+<hr>
+<div class="container bodyContent grid-wrap content">
+
+  <h3>Selected grad school projects</h3>
+
+  <h3 class="content">Selected undergrad projects</h3>
+
+	<!-- <hr> -->
+  <ul class="grid swipe-rotate" id="grid">
+    <li>
+      <div class="listLink">
+        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=blockchain';" style="cursor: pointer;"><img src="images/latest/test.png" class="img-responsive" alt=""></div>
+        <div class="portfolioContent">
+          <h3 class="font-openBold"><a href="generic_project.html?project=blockchain">Blockchain technologies in iot</a></h3>
+        </div>
+      </div>
+    </li>
+
+    <li >
+      <div class="listLink">
+        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=hurricane';" style="cursor: pointer;"><img src="images/latest/image_1.jpg" class="img-responsive" alt=""></div>
+        <div class="portfolioContent">
+          <h3 class="font-openBold"><a href="generic_project.html?project=hurricane">Deep Learning for Hurricane Forecasting</a></h3>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="listLink">
+        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=dataprediction';" style="cursor: pointer;"><img src="images/latest/image_2.jpg" class="img-responsive" alt=""></div>
+        <div class="portfolioContent">
+          <h3 class="font-openBold"><a href="generic_project.html?project=dataprediction">Data Prediction for Sensors in IoT</a></h3>
+        </div>
+      </div>
+    </li>
+
+    <li>
+     <div class="listLink">
+       <div class="portfolioSlide" onclick="location.href='generic_project.html?project=neuralgonna';" style="cursor: pointer;"><img src="images/latest/image_5.jpg" class="img-responsive" alt=""></div>
+       <div class="portfolioContent">
+         <h3 class="font-openBold"><a href="generic_project.html?project=neuralgonna">Neural Gonna Give You Up</a></h3>
+       </div>
+     </div>
+    </li>
+
+    <li>
+      <div class="listLink">
+        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=dynamictrust';" style="cursor: pointer;"><img src="images/latest/image_4.jpg" class="img-responsive" alt=""></div>
+        <div class="portfolioContent">
+          <h3 class="font-openBold"><a href="generic_project.html?project=dynamictrust">MWSN Dynamic Trust Establishment</a></h3>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="listLink">
+        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=nanodegree';" style="cursor: pointer;"><img src="images/latest/image_6.jpg" class="img-responsive" alt=""></div>
+        <div class="portfolioContent">
+          <h3 class="font-openBold"><a href="generic_project.html?project=nanodegree">Udacity's Deep Learning Nanodegree</a></h3>
+        </div>
+      </div>
+    </li>
+
+    <!-- <li>
+      <div class="listLink">
+        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=apriori';" style="cursor: pointer;"><img src="images/latest/image_7.jpg" class="img-responsive" alt=""></div>
+        <div class="portfolioContent">
+          <h3 class="font-openBold"><a href="generic_project.html?project=apriori">Data mining using GPU Parallel Computing</a></h3>
+        </div>
+      </div>
+    </li> -->
+
+  </ul>
+</div>
+
+<!-- Import footer -->
+<div data-include="footer"></div>
+
+<!--Javascriptfile start -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/colorfinder-1.1.js"></script>
+<script src="js/gridScrollFx.js"></script>
+<script>
+var masonryClass, container = $("#grid");
+	new GridScrollFx( document.getElementById( 'grid' ), {
+		viewportFactor : 0.4
+	} );
+</script>
+
+</body>
+</html>
