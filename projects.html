@@ -29,82 +29,117 @@
 <!-- Import header -->
 <div data-include="header"></div>
 
-<!--Portfolio start-->
-<hr>
-<div class="container bodyContent grid-wrap content">
+<div class="container">
+  <div class="row content publications">
+    <h3 class="contactTitle text-xs-center">Research</h3>
 
-  <h3>Selected grad school projects</h3>
-
-  <h3 class="content">Selected undergrad projects</h3>
-
-	<!-- <hr> -->
-<!--   <ul class="grid swipe-rotate" id="grid">
-    <li>
-      <div class="listLink">
-        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=blockchain';" style="cursor: pointer;"><img src="images/latest/test.png" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=blockchain">Blockchain technologies in iot</a></h3>
+    <ul>
+    
+      <li>
+        <p><a href="http://ceur-ws.org/Vol-3087/paper_46.pdf">The dilemma between data transformations and adversarial robustness in time series application systems</a>
+      <br>To appear in AAAI's Workshop on Artificial Intelligence Safety proceedings (Safe AI 2022)
+      <br><span class="authors"><strong>Sheila Alemany</strong>, Niki Pissinou</span>
+      
+      <br><a href="#demo" class="paper-details" data-toggle="collapse">abstract <i class="fa fa-angle-down"></i></a>
+      <div id="demo" class="panel-collapse collapse">
+        <p class="abstract">Adversarial examples, or nearly indistinguishable inputs created by an attacker, significantly reduce machine learning accuracy. Theoretical evidence has shown that the high intrinsic dimensionality of datasets facilitates an adversary's ability to develop effective adversarial examples in classification models. Adjacently, the presentation of data to a learning model impacts its performance. For example, we have seen this through dimensionality reduction techniques used to aid with the generalization of features in machine learning applications. Thus, data transformation techniques go hand-in-hand with state-of-the-art learning models in decision-making applications such as intelligent medical or military systems. With this work, we explore how data transformations techniques such as feature selection, dimensionality reduction, or trend extraction techniques may impact an adversary's ability to create effective adversarial samples on a recurrent neural network. Specifically, we analyze it from the perspective of the data manifold and the presentation of its intrinsic features. Our evaluation empirically shows that feature selection and trend extraction techniques may increase the RNN's vulnerability. A data transformation technique reduces the vulnerability to adversarial examples only if it approximates the dataset's intrinsic dimension, minimizes codimension, and maintains higher manifold coverage.</p>
+      </div> 
+      
+    </p>
+      </li>
+    
+      <li>
+        <p><a href="https://ieeexplore.ieee.org/abstract/document/9671385">Jespipe: A plugin-based, open MPI framework for adversarial machine learning analysis</a> 
+      <br>To appear in IEEE International Conference on Big Data proccedings (BigData 2021)
+      <br><span class="authors"><strong>Sheila Alemany</strong>, Jason Nucciarone, Niki Pissinou</span> 
+      
+      <br><a href="#jespipe" class="paper-details" data-toggle="collapse">abstract <i class="fa fa-angle-down"></i></a><a href="https://github.com/NucciTheBoss/jespipe" class="paper-details">code</a>
+        <div id="jespipe" class="panel-collapse collapse">
+          <p class="abstract">Research is increasingly showing the tremendous vulnerability in machine learning models to seemingly undetectable adversarial inputs. One of the current limitations in adversarial machine learning research is the incredibly time-consuming testing of novel defenses against various attacks and across multiple datasets, even with high computing power. To address this limitation, we have developed Jespipe as a new plugin-based, parallel-by-design Open MPI framework that aids in evaluating the robustness of machine learning models. The plugin-based nature of this framework enables researchers to specify any pre-training data manipulations, machine learning models, adversarial models, and analysis or visualization metrics with their input Python files. Because this framework is plugin-based, a researcher can easily incorporate model implementations using popular deep learning libraries such as PyTorch, Keras, TensorFlow, Theano, or MXNet, or adversarial robustness tools such as IBM's Adversarial Robustness Toolbox or Foolbox. The parallelized nature of this framework also enables researchers to evaluate various learning or attack models with multiple datasets simultaneously by specifying all the models and datasets they would like to test with our XML control file template. Overall, Jespipe shows promising results by reducing latency in adversarial machine learning algorithm development and testing compared to traditional Jupyter notebook workflows.</p>
         </div>
-      </div>
-    </li>
+      
+    </p>
+      </li>
+    
+      <li>
+        <p><a href="https://ieeexplore.ieee.org/abstract/document/9101389">Leontief-based data cleaning workload distribution strategy for EH-MWSN</a> <span class="paper-type-bestpaper">best paper</span>
+      <br>IEEE International Workshop Technical Committee on Communications Quality and Reliability (CQR 2020) 
+      <br><span class="authors">Concepcion Sanchez Aleman, Niki Pissinou, <strong>Sheila Alemany</strong></span>
+      
+        <br><a href="#leontief" class="paper-details" data-toggle="collapse">abstract <i class="fa fa-angle-down"></i></a>
+          <div id="leontief" class="panel-collapse collapse">
+            <p class="abstract">The use of energy-harvesting technologies in mobile wireless sensor networks (MWSN) delivers a promising opportunity to mitigate the limitations that irreplaceable energy sources impose over conventional MWSN. We propose Leontief-Data Cleaning Distribution Strategy (Leontief-DCD), an economic model-based method designed to distribute the data cleaning workload in energy harvesting MWSN powered by predictable energy sources, such as solar energy. Leontief-DCD creates interdependencies among sensor nodes to predict the required cooperation from each node in the data cleaning process. Different from existing task allocation methods, the interdependencies in Leontief-DCD allows for to plan a workload distribution that benefits the network as a whole, rather than only individual sensors, which consequently benefit the overall system performance. Our results show that when employing our method to distribute data cleaning workload in highly dirty, real-world datasets in scenarios with high and low energy, our method increased the number of data samples engaged in data cleaning processes by up to 25.57%, the count of active sensor nodes by up to 44.01%, and the network overall well-being by up to 55.42% compared to data cleaning performed by each node individually.</p>
+          </div>
+        
+    </p>
+      </li>
+    
+      <li>
+        <p><a href="https://www.aaai.org/ojs/index.php/AAAI/article/view/3819/3697">Predicting hurricane trajectories using a recurrent neural network</a>
+      <br>Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2019)
+      <br><span class="authors"><strong>Sheila Alemany</strong>, Jonathan Beltran, Adrian Perez, Sam Ganzfried</span> 
+      
+        <br><a href="#hurricane" class="paper-details" data-toggle="collapse">abstract <i class="fa fa-angle-down"></i></a><a href="https://github.com/sheilaalemany/hurricane-rnn" class="paper-details">code</a><a href="https://drive.google.com/file/d/1v-PTU8fkNgux43dcp_AGDTHSB4lpB4lj/view?usp=sharing" class="paper-details">presentation</a>
+          <div id="hurricane" class="panel-collapse collapse">
+            <p class="abstract">Hurricanes are cyclones circulating about a defined center whose closed wind speeds exceed 75 mph originating over tropical and subtropical waters. At landfall, hurricanes can result in severe disasters. The accuracy of predicting their tra- jectory paths is critical to reduce economic loss and save human lives. Given the complexity and nonlinearity of weather data, a recurrent neural network (RNN) could be beneficial in modeling hurricane behavior. We propose the application of a fully connected RNN to predict the trajectory of hurricanes. We employed the RNN over a fine grid to reduce typical truncation errors. We utilized their latitude, longitude, wind speed, and pressure publicly provided by the National Hurricane Center (NHC) to predict the trajectory of a hurricane at 6-hour intervals. Results show that this proposed technique is competitive to methods currently employed by the NHC and can predict up to approximately 120 hours of hurricane path.</p>
+          </div>
+       
+    </p>
+      </li>
+      <li>
+        <p><a href="https://dl.acm.org/doi/abs/10.1145/3360774.3360800">Quantifying location privacy in permissioned blockchain-based Internet of Things</a>
+      <br>EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous 2019)
+      <br><span class="authors">Abdur R Shahid, Niki Pissinou, Laurent Njilla, <strong>Sheila Alemany</strong>, Ahmed Imteaj, Kia Makki, Edwin Aguilar</span> 
+      
+          <br><a href="#mobiquitous" class="paper-details" data-toggle="collapse">abstract <i class="fa fa-angle-down"></i></a>
+            <div id="mobiquitous" class="panel-collapse collapse">
+              <p class="abstract">Recently, blockchain has received much attention from the mobility-centric Internet of Things (IoT). It is deemed the key to ensuring the built-in integrity of information and security of immutability by design in the peer-to-peer network (P2P) of mobile devices. In a permissioned blockchain, the authority of the system has control over the identities of its users. Such information can allow an ill-intentioned authority to map identities with their spatiotemporal data, which undermines the location privacy of a mobile user. In this paper, we study the location privacy preservation problem in the context of permissioned blockchain-based IoT systems under three conditions. First, the authority of the blockchain holds the public and private key distribution task in the system. Second, there exists a spatiotemporal correlation between consecutive location-based transactions. Third, users communicate with each other through short-range communication technologies such that it constitutes a proof of location (PoL) on their actual locations. We show that, in a permissioned blockchain with an authority and a presence of a PoL, existing approaches cannot be applied using a plug-and-play approach to protect location privacy. In this context, we propose BlockPriv, an obfuscation technique that quantifies, both theoretically and experimentally, the relationship between privacy and utility in order to dynamically protect the privacy of sensitive locations in the permissioned blockchain.</p>
+            </div>
+        
+    </p>
+      </li>
+      <li>
+        <p><a href="https://ieeexplore.ieee.org/abstract/document/8622308">Using candlestick charting and dynamic time warping for data behavior modeling and trend prediction for MWSN in IoT</a>
+      <br>IEEE International Conference on Big Data (BigData 2018)
+      <br><span class="authors">Concepcion Sanchez Aleman, Niki Pissinou, <strong>Sheila Alemany</strong>, Georges A Kamhoua</span>
+      
+          <br><a href="#bigdata" class="paper-details" data-toggle="collapse">abstract <i class="fa fa-angle-down"></i></a>
+        <div id="bigdata" class="panel-collapse collapse">
+              <p class="abstract">There is a rapid emergence of new applications involving mobile wireless sensor networks (MWSN) in the field of Internet of Things (IoT). Although useful, MWSN still carry the restrictions of having limited memory, energy, and computational capacity. At the same time, the amount of data collected in the IoT is exponentially increasing. We propose Behavior-Based Trend Prediction (BBTP), a data abstraction and trend prediction technique, designed to address the limited memory constraint in addition to providing future trend predictions. Predictions made by BBTP can be employed by real-time decision-making applications and data monitoring. BBTP applies a candlestick charting technique to abstract the data behavior of a time partition in evolving data streams. It also quantifies differences between a pair of consecutive time partitions using dynamic time warping (DTW) at the sensor node. Then, it forwards the data to an Internet-enabled device, where the sensor's future data trends are predicted using a multi-class Support Vector Machine (SVM). A comparative study was conducted to investigate the effectiveness of our BBTP method on real-world datasets. Our results demonstrate that data trends predicted by BBTP achieve better precision, recall, and accuracy score when contrasted against four well-known techniques while reducing the space complexity by at least a factor of 10.</p>
+            </div>
+        
+    </p>
+      </li>
+      <li>
+        <p><a href="https://ieeexplore.ieee.org/abstract/document/8455888">A dynamic trust weight allocation technique for data reconstruction in mobile wireless sensor networks</a>
+      <br>IEEE International Conference On Trust, Security And Privacy In Computing And Communications (TrustCom 2018)
+      <br><span class="authors">Concepcion Sanchez Aleman, Niki Pissinou, <strong>Sheila Alemany</strong>, Georges A Kamhoua</span>
+      
+          <br><a href="#trustcom" class="paper-details" data-toggle="collapse">abstract <i class="fa fa-angle-down"></i></a>
+            <div id="trustcom" class="panel-collapse collapse">
+              <p class="abstract">Data accuracy and low energy consumption in mobile wireless sensor networks (MWSN) are crucial attributes for real-time applications. Although there are many existing methods to reconstruct data for wireless sensor networks, there are few developed for highly mobile environments. We propose Dynamic Trust Weight Allocation Technique (DTWA), a novel in-network data reconstruction method that determines the trust level in the data accuracy of each candidate node by evaluating spatio-temporal correlations, trajectory behavior, quantity and quality of data, and the number of hops traveled by the received data from the source. DTWA is capable of evaluating second-hand data when there is no first-hand data available and selecting second-hand data when this last is more accurate than the first-hand data. Our results demonstrate that data reconstructed using DTWA depicts significantly lower Root Mean Square Error (RMSE) compared to the IMC method when tested for both low and high incomplete dataset scenarios.</p>
+            </div>
+        
+    </p>
+      </li>
+      <li>
+        <p><a href="https://ieeexplore.ieee.org/abstract/document/8390320">Context-aware data cleaning for mobile wireless sensor networks: A diversified trust approach</a>
+      <br>International Conference on Computing, Networking and Communications (ICNC 2018)
+      <br><span class="authors">Concepcion Sanchez Aleman, Niki Pissinou, <strong>Sheila Alemany</strong>, Kianoosh Boroojeni, Jerry Miller, Ziqian Ding</span>
+      
+          <br><a href="#icnc" class="paper-details" data-toggle="collapse">abstract <i class="fa fa-angle-down"></i></a>
+            <div id="icnc" class="panel-collapse collapse">
+              <p class="abstract">In mobile wireless sensor networks (MWSN), data imprecision is a common problem. Decision making in real time applications may be greatly affected by a minor error. Even though there are many existing techniques that take advantage of the spatio-temporal characteristics exhibited in mobile environments, few measure the trustworthiness of sensor data accuracy. We propose a unique online context-aware data cleaning method that measures trustworthiness by employing an initial candidate reduction through the analysis of trust parameters used in financial markets theory. Sensors with similar trajectory behaviors are assigned trust scores estimated through the calculation of “betas” for finding the most accurate data to trust. Instead of devoting all the trust into a single candidate sensor's data to perform the cleaning, a Diversified Trust Portfolio (DTP) is generated based on the selected set of spatially autocorrelated candidate sensors. Our results show that samples cleaned by the proposed method exhibit lower percent error when compared to two well-known and effective data cleaning algorithms in tested outdoor and indoor scenarios.</p>
+            </div>
+        
+    </p>
+      </li>
+    </ul>
 
-    <li >
-      <div class="listLink">
-        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=hurricane';" style="cursor: pointer;"><img src="images/latest/image_1.jpg" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=hurricane">Deep Learning for Hurricane Forecasting</a></h3>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="listLink">
-        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=dataprediction';" style="cursor: pointer;"><img src="images/latest/image_2.jpg" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=dataprediction">Data Prediction for Sensors in IoT</a></h3>
-        </div>
-      </div>
-    </li>
-
-    <li>
-     <div class="listLink">
-       <div class="portfolioSlide" onclick="location.href='generic_project.html?project=neuralgonna';" style="cursor: pointer;"><img src="images/latest/image_5.jpg" class="img-responsive" alt=""></div>
-       <div class="portfolioContent">
-         <h3 class="font-openBold"><a href="generic_project.html?project=neuralgonna">Neural Gonna Give You Up</a></h3>
-       </div>
-     </div>
-    </li>
-
-    <li>
-      <div class="listLink">
-        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=dynamictrust';" style="cursor: pointer;"><img src="images/latest/image_4.jpg" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=dynamictrust">MWSN Dynamic Trust Establishment</a></h3>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="listLink">
-        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=nanodegree';" style="cursor: pointer;"><img src="images/latest/image_6.jpg" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=nanodegree">Udacity's Deep Learning Nanodegree</a></h3>
-        </div>
-      </div>
-    </li>
-
-    <!-- <li>
-      <div class="listLink">
-        <div class="portfolioSlide" onclick="location.href='generic_project.html?project=apriori';" style="cursor: pointer;"><img src="images/latest/image_7.jpg" class="img-responsive" alt=""></div>
-        <div class="portfolioContent">
-          <h3 class="font-openBold"><a href="generic_project.html?project=apriori">Data mining using GPU Parallel Computing</a></h3>
-        </div>
-      </div>
-    </li>
-
-  </ul> 
--->
+  </div>
 </div>
+
+  <hr>
 
 <!-- Import footer -->
 <div data-include="footer"></div>
