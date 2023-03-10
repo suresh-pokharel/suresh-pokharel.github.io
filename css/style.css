@@ -836,7 +836,7 @@ body {
 	margin: 0 0 -25px 0;
 } */
 .publications .paper-type-journal {
-	background-color: #078711;
+	background-color: #0787118f;
 	border: none;
 	color: white;
 	font-family: 'Lato', sans-serif;
@@ -848,7 +848,7 @@ body {
 }
 
 .publications .paper-type-conference {
-	background-color: #4285F4;
+	background-color: #4285f49e;
 	border: none;
 	color: white;
 	font-family: 'Lato', sans-serif;
@@ -860,7 +860,7 @@ body {
 }
 
 .publications .paper-type-book {
-	background-color: #de7c17;
+	background-color: #de7c1799;
 	border: none;
 	color: white;
 	font-family: 'Lato', sans-serif;
@@ -872,7 +872,7 @@ body {
 }
 
 .publications .paper-type-workshop {
-	background-color: #F4B400;
+	background-color: #F4B4009e;
 	border: none;
 	color: white;
 	font-family: 'Lato', sans-serif;
@@ -883,7 +883,7 @@ body {
 	font-weight: bold;
 }
 .publications .paper-type-bestpaper {
-	background-color: #DB4437;
+	background-color: #DB44379e;
 	border: none;
 	color: white;
 	font-family: 'Lato', sans-serif;
