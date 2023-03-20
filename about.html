@@ -112,7 +112,15 @@
 <!-- Import footer -->
 <div data-include="footer"></div>
 
-
+<!-- Google ReCaptchas -->
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LdhkAAlAAAAAEBabRsENwuWbJ0gQQgJhfrtm0XB"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6LdhkAAlAAAAAEBabRsENwuWbJ0gQQgJhfrtm0XB', {action: 'login'}).then(function(token) {
+       ...
+    });
+});
+</script>
 <!--Javascriptfile start -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
