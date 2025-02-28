@@ -1385,3 +1385,49 @@ em {
     columns: 1;
   }
 }
+
+.container {
+  max-width: 800px;
+  padding: 2rem 1rem;
+}
+
+.research-interests {
+  margin: 2rem 0;
+}
+
+.research-category {
+  margin-bottom: 2rem;
+}
+
+.research-category h3 {
+  color: #2c3e50;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.research-category ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.research-category li {
+  margin: 0.5rem 0;
+  color: #4a5568;
+}
+
+.mentee-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.mentee-list li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #eee;
+  color: #4a5568;
+}
+
+.mentee-list li:last-child {
+  border-bottom: none;
+}
