@@ -1,80 +1,127 @@
 <!doctype html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <title>Suresh Pokharel</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- <link rel="icon" type="image/png" href="images/logo.png"> -->
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/component.css">
-      <script src="js/modernizr.custom.js"></script>
-      <link href='https://fonts.googleapis.com/css?family=Lato:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
-      <script src="js/loader_htmls.js"></script>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131953460-1"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'UA-131953460-1');
-      </script>
-   </head>
-   <body>
-      <!-- Import header -->
-      <div data-include="header"></div>
-<div class="container">
-  <div class="row content research" style="padding: 20px; margin: 10px 0;">
-    <h2 class="text-xs-center">Research Interests</h2>
-    <p>
-      <ul>
-        <li>AI/ML, Data Science, Computational Biology, and Health Informatics.</li>
-        <li>
-          NLP-based protein modeling for protein structure, interaction, and PTM prediction.
-        </li>
-      </ul>
-    </p>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Suresh Pokharel | Research</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Research portfolio of Suresh Pokharel - Ph.D. Candidate in Computational Biology and Machine Learning">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,600,700' rel='stylesheet'>
 
-    <h2 class="text-xs-center">Mentorship Experience</h2>
-    <div>
-      <h4>MS Students</h4>
-      <ul>
-        <li>Keppa Barasa</li>
-        <li>Mohamed Bah</li>
-      </ul>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131953460-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-131953460-1');
+    </script>
+  </head>
 
-      <h4>BS Students</h4>
-      <ul>
-        <li>Steven Garrett</li>
-      </ul>
+  <body>
+    <!-- Import header -->
+    <div data-include="header"></div>
 
-      <h4>High School Students</h4>
-      <ul>
-        <li>Issac Shukla</li>
-      </ul>
-    </div>
-  </div>
-</div>
+    <main class="container mt-4">
+      <div class="research-portfolio">
+        <!-- Research Interests Section -->
+        <section class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title text-center mb-4">Research Focus Areas</h2>
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="research-category p-3 h-100">
+                  <h4 class="category-title"><i class="fas fa-dna me-2"></i>Computational Biology</h4>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">• Protein language models for post-translational modification prediction</li>
+                    <li class="mb-2">• Deep learning approaches for protein structure prediction</li>
+                    <li class="mb-2">• Biological sequence analysis using transformer architectures</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="col-md-6 mb-4">
+                <div class="research-category p-3 h-100">
+                  <h4 class="category-title"><i class="fas fa-brain me-2"></i>Machine Learning</h4>
+                  <ul class="list-unstyled">
+                    <li class="mb-2">• Multimodal learning for biological data integration</li>
+                    <li class="mb-2">• Explainable AI in healthcare applications</li>
+                    <li class="mb-2">• Optimization of large language models for biological sequences</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-      </ul>
-<!--       <hr> -->
-      <!-- Import footer -->
-      <div data-include="footer"></div>
-      <!--Javascriptfile start -->
-      <script type="text/javascript" src="js/jquery.min.js"></script>
-      <script type="text/javascript" src="js/bootstrap.js"></script>
-      <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-      <script src="js/modernizr.custom.js"></script>
-      <script src="js/masonry.pkgd.min.js"></script>
-      <script src="js/imagesloaded.pkgd.min.js"></script>
-      <script src="js/classie.js"></script>
-      <script src="js/colorfinder-1.1.js"></script>
-      <script src="js/gridScrollFx.js"></script>
-      <script>
-         var masonryClass, container = $("#grid");
-         	new GridScrollFx( document.getElementById( 'grid' ), {
-         		viewportFactor : 0.4
-         	} );
-      </script>
-   </body>
+        <!-- Mentorship Section -->
+        <section class="card shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title text-center mb-4">Mentorship & Collaboration</h2>
+            
+            <div class="mentorship-tier">
+              <h3 class="tier-title"><i class="fas fa-user-graduate me-2"></i>Graduate Students</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mentee-card p-3 mb-3">
+                    <h5>Keppa Barasa</h5>
+                    <p class="text-muted">MS in Computer Science<br>
+                    <em>Research Focus:</em> Protein interaction prediction using graph neural networks</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mentee-card p-3 mb-3">
+                    <h5>Mohamed Bah</h5>
+                    <p class="text-muted">MS in Data Science<br>
+                    <em>Research Focus:</em> Transfer learning for low-resource biological datasets</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mentorship-tier mt-4">
+              <h3 class="tier-title"><i class="fas fa-laptop-code me-2"></i>Undergraduate Researchers</h3>
+              <div class="mentee-card p-3 mb-3">
+                <h5>Steven Garrett</h5>
+                <p class="text-muted">BS in Computer Science<br>
+                <em>Project:</em> Development of visualization tools for protein sequence analysis</p>
+              </div>
+            </div>
+
+            <div class="mentorship-tier mt-4">
+              <h3 class="tier-title"><i class="fas fa-school me-2"></i>High School Scholars</h3>
+              <div class="mentee-card p-3">
+                <h5>Issac Shukla</h5>
+                <p class="text-muted">Summer Research Intern<br>
+                <em>Project:</em> Benchmarking ML models for PTM prediction</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Import footer -->
+    <div data-include="footer"></div>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/loader_htmls.js"></script>
+
+    <!-- Optional: Add smooth scroll and interaction effects -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Add hover effects to cards
+        document.querySelectorAll('.mentee-card').forEach(card => {
+          card.addEventListener('mouseenter', () => card.classList.add('shadow'));
+          card.addEventListener('mouseleave', () => card.classList.remove('shadow'));
+        });
+      });
+    </script>
+  </body>
 </html>

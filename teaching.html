@@ -1,84 +1,74 @@
 <!doctype html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <title>Suresh Pokharel</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- <link rel="icon" type="image/png" href="images/logo.png"> -->
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="css/component.css">
-      <script src="js/modernizr.custom.js"></script>
-      <link href='https://fonts.googleapis.com/css?family=Lato:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
-      <script src="js/loader_htmls.js"></script>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131953460-1"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'UA-131953460-1');
-      </script>
-   </head>
-   <body>
-      <!-- Import header -->
-      <div data-include="header"></div>
-<div class="experience-container">
-  <div class="experience">
-    <h2>Michigan Technological University</h2>
-    <p><strong>Location:</strong> Houghton, MI</p>
-    <p><strong>Position:</strong> Graduate Teaching Assistant</p>
-    <p><strong>Duration:</strong> August 2023 – May 2024</p>
-    <div class="details">
-      <p>Course Instructor</p>
-      <p>UN5000 Intro to Data Science</p>
-      <p>The course was well received, evidenced by an outstanding <strong>7-Dimension evaluation score</strong> of <strong>4.8 out of 5</strong>, reflecting the high level of satisfaction among my students. </p>
-      <p>Teaching Assistant </p>
-      <ul>
-        <li>CS4811 Artificial Intelligence</li>
-        <li>CS5811 Advanced Artificial Intelligence</li>
-        <li>EE/CS5821 Computational Intelligence</li>
-      </ul>
+  <head>
+    <meta charset="utf-8">
+    <title>Suresh Pokharel - Teaching</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+
+  <body>
+    <!-- Import header -->
+    <div data-include="header"></div>
+
+    <div class="container teaching-container">
+      <!-- Courses Section -->
+      <section class="courses-section">
+        <h2 class="section-title">Teaching Experience</h2>
+        
+        <div class="course-list">
+          <!-- Course Item Template -->
+          <div class="course-item">
+            <div class="course-header">
+              <span class="course-id">UN5000</span>
+              <span class="course-title">
+                Introduction to Data Science
+                <a href="assets/syllabi/data-science.pdf" class="syllabus-icon">
+                  <i class="fas fa-file-pdf"></i>
+                </a>
+              </span>
+            </div>
+            <div class="course-meta">
+              <span class="institution">Michigan Technological University</span>
+              <span class="semester">Spring 2024</span>
+            </div>
+          </div>
+
+          <!-- Pulchowk Course Example -->
+          <div class="course-item">
+            <div class="course-header">
+              <span class="course-id">CE654</span>
+              <span class="course-title">
+                Artificial Intelligence
+                <!-- No syllabus icon example -->
+              </span>
+            </div>
+            <div class="course-meta">
+              <span class="institution">Pulchowk Campus</span>
+              <span class="semester">Fall 2020</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TA Section -->
+      <section class="ta-section">
+        <h3 class="subsection-title">Teaching Assistantships</h3>
+        <ul class="ta-list">
+          <li>CS5811: Advanced AI (Michigan Tech)</li>
+          <li>EE/CS5821: Computational Intelligence (Michigan Tech)</li>
+          <li>CS4811: Artificial Intelligence (Michigan Tech)</li>
+        </ul>
+      </section>
     </div>
-  </div>
 
-  <hr />
+    <!-- Import footer -->
+    <div data-include="footer"></div>
 
-  <div class="experience">
-    <h2>Pulchowk Campus</h2>
-    <p><strong>Location:</strong> Kathmandu, Nepal</p>
-    <p><strong>Position:</strong> Instructor</p>
-    <p><strong>Duration:</strong> April 2018 – January 2021</p>
-    <div class="details">
-      <p>Conducted classes and lab sessions on the following topics for undergraduate computer science students:</p>
-      <ul>
-        <li>Computer Programming</li>
-        <li>Artificial Intelligence</li>
-        <li>Database Management Systems</li>
-        <li>Data Mining</li>
-      </ul>
-    </div>
-   </div>
-</div>
-
-<!--       <hr> -->
-      <!-- Import footer -->
-      <div data-include="footer"></div>
-      <!--Javascriptfile start -->
-      <script type="text/javascript" src="js/jquery.min.js"></script>
-      <script type="text/javascript" src="js/bootstrap.js"></script>
-      <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-      <script src="js/modernizr.custom.js"></script>
-      <script src="js/masonry.pkgd.min.js"></script>
-      <script src="js/imagesloaded.pkgd.min.js"></script>
-      <script src="js/classie.js"></script>
-      <script src="js/colorfinder-1.1.js"></script>
-      <script src="js/gridScrollFx.js"></script>
-      <script>
-         var masonryClass, container = $("#grid");
-         	new GridScrollFx( document.getElementById( 'grid' ), {
-         		viewportFactor : 0.4
-         	} );
-      </script>
-   </body>
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
