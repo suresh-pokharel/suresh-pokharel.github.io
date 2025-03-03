@@ -368,10 +368,10 @@ body {
 ---------------------------- */
 .footer {
 	background: #f8f7f8;
-	padding-top: 30px;
+	padding-top: 5px;
 	font-size: 13px;
 	line-height: 18px;
-	padding-bottom: 30px;
+	padding-bottom: 5px;
 	text-align: center;
 }
 .footerLink {
