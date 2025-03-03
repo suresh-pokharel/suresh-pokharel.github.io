@@ -1334,7 +1334,7 @@ em {
 .course-meta {
   display: flex;
   justify-content: space-between;
-  color: #95a5a6;
+  color: #000000;
   font-size: 0.9rem;
   padding-left: 60px;
 }
@@ -1350,7 +1350,8 @@ em {
 }
 
 .ta-section {
-  margin-top: 2.5rem;
+  margin: 20px;
+  padding-top: 30px;
 }
 
 .subsection-title {
@@ -1360,13 +1361,12 @@ em {
 }
 
 .ta-list {
-  columns: 2;
   list-style: none;
   padding-left: 0;
 }
 
 .ta-list li {
-  color: #95a5a6;
+  color: #000000;
   padding: 0.2rem 0;
 }
 
