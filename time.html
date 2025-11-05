@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Digital Clock</title>
+<style>
+  :root { --red:#c00; }
+  html,body { height:100%; margin:0; background:#fff; }
+  body { display:grid; place-items:center; }
+  #clock {
+    font: 900 clamp(3rem, 10vw + 1rem, 10rem)/1.1 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    color: var(--red);
+    letter-spacing: .06em;
+    text-align: center;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+  <time id="clock" aria-live="polite" datetime=""></time>
+
+<script>
+(function(){
+  const el = document.getElementById('clock');
+  const pad = n => String(n).padStart(2,'0');
+
+  function render(){
+    const now = new Date();
+    const h = pad(now.getHours());
+    const m = pad(now.getMinutes());
+    const s = pad(now.getSeconds());
+    const text = `${h}:${m}:${s}`;
+    el.textContent = text;
+    el.dateTime = text;
+  }
+
+  function tick(){ // align to the next exact second to avoid drift
+    render();
+    const now = new Date();
+    setTimeout(tick, 1000 - now.getMilliseconds());
+  }
+
+  tick();
+})();
+</script>
+</body>
+</html>
